@@ -1,0 +1,16 @@
+//
+//  PlayTogether-Prefix.pch
+//  PlayTogether
+//
+//  Created by AD-iOS on 16/3/28.
+//  Copyright © 2016年 DW. All rights reserved.
+//
+
+#ifndef PlayTogether_Prefix_pch
+#define PlayTogether_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <BmobSDK/Bmob.h>
+
+#endif /* PlayTogether_Prefix_pch */
