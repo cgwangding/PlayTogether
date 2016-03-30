@@ -20,19 +20,19 @@
 
 - (NSString *)dateStr
 {
-    NSString *year = [NSString stringWithFormat:@"%lu",self.year];
+    NSString *year = [NSString stringWithFormat:@"%lu",(long)self.year];
     NSString *month = nil;
     NSString *day = nil;
     if (self.month < 10) {
-        month = [NSString stringWithFormat:@"0%lu",self.month];
+        month = [NSString stringWithFormat:@"0%lu",(long)self.month];
     }else{
-        month = [NSString stringWithFormat:@"%lu",self.month];
+        month = [NSString stringWithFormat:@"%lu",(long)self.month];
     }
     
     if (self.day < 10) {
-        day = [NSString stringWithFormat:@"0%lu",self.day];
+        day = [NSString stringWithFormat:@"0%lu",(long)self.day];
     }else{
-        day = [NSString stringWithFormat:@"%lu",self.day];
+        day = [NSString stringWithFormat:@"%lu",(long)self.day];
     }
     
     return [NSString stringWithFormat:@"%@-%@-%@",year,month,day];

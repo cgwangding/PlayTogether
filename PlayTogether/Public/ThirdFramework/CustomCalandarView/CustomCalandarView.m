@@ -192,7 +192,7 @@ static CGFloat spaceLR = 15;
 
 - (void)updateTitleDate
 {
-    NSString *dateStr = [NSString stringWithFormat:@"%lu年%lu月",(long)self.currentComponents.year,self.currentComponents.month];
+    NSString *dateStr = [NSString stringWithFormat:@"%lu年%lu月",(long)self.currentComponents.year,(long)self.currentComponents.month];
     self.dateTitleLabel.text = dateStr;
 }
 

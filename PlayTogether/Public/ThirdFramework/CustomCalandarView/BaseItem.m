@@ -40,9 +40,9 @@
     }
     NSString *title = nil;
     if (model.day < 10) {
-        title = [NSString stringWithFormat:@"0%lu",model.day];
+        title = [NSString stringWithFormat:@"0%lu",(long)model.day];
     }else{
-        title = [NSString stringWithFormat:@"%lu",model.day];
+        title = [NSString stringWithFormat:@"%lu",(long)model.day];
     }
     [self setTitle:title forState:UIControlStateNormal];
     [self setTitle:title forState:UIControlStateSelected];

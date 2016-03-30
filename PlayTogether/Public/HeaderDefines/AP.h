@@ -12,20 +12,17 @@
 #ifdef __OBJC__
 
 #import "UIKit+AFNetworking.h"
-#import "UIImageView+WebCache.h"
 #import "UIView+Extension.h"
 #import "UIImage+Extension.h"
 #import "UIColor+Extension.h"
 #import "UIButton+EnlargeTouchArea.h"
 #import "UIView+AEBHandyAutoLayout.h"
 #import "UIView+Toast.h"
-#import "UIButton+WebCache.h"
 #import "UIButton+AFNetworking.h"
 #import "NSDate+Category.h"
 #import "NSDateFormatter+Category.h"
 #import "UIImage+HeaderMontage.h"
 #import "UIDevice+DeviceType.h"
-#import "UIViewController+RefreshExtension.h"
 #import "NSString+MD5.h"
 #import "NSString+Validate.h"
 #import "UIControl+TouchEventInterval.h"
@@ -36,7 +33,6 @@
 #import "UIApplication+EnablePush.h"
 #import "NSURL+MediaDuration.h"
 
-#import "MJRefresh.h"
 #import <SVProgressHUD/SVProgressHUD.h>
 #import <MBProgressHUD/MBProgressHUD.h>
 
@@ -48,15 +44,11 @@
 
 #import "APKeys.h"
 
-#import "MJExtension.h"
 
 #import "InCommonUse.h"
 
-#import "APIManager.h"
-#import "HTTPClient.h"
 #import "APUserData.h"
 #import "APBaseModel.h"
-#import "AreaDataManager.h"
 
 #import "MGSwipeTableCell.h"
 #import "MGSwipeButton.h"
@@ -70,14 +62,12 @@
 
 #import "APService.h"
 
-
-#import "PersonalCenterViewController.h"
-
-
 #import <AudioToolbox/AudioToolbox.h>
 
 #import "MobClick.h"
 #import <JSPatch/JSPatch.h>
+#import <AFNetworking/AFNetworking.h>
+#import <tingyunApp/NBSAppAgent.h>
 
 #else
 

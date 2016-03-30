@@ -8,6 +8,7 @@
 
 #import "HTTPClient.h"
 #import "InCommonUse.h"
+#import <AFNetworking/AFht>
 
 
 @interface HTTPClient ()

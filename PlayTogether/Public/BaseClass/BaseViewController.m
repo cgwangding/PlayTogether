@@ -8,8 +8,6 @@
 
 #import "BaseViewController.h"
 #import "MJRefresh.h"
-#import "LoginViewController.h"
-#import "PersonalCenterView.h"
 
 NSString *const HadLoginAtAnotherPlaceNotification = @"HadLoginAtAnotherPlaceNotification";
 NSString *const HadPresentedKey = @"HadPresentedKey";
@@ -181,10 +179,8 @@ NSString *const HadPresentedKey = @"HadPresentedKey";
     default_add_Bool(YES, HadPresentedKey);
     default_synchronize;
     //退出
-    [[NSNotificationCenter defaultCenter]postNotificationName:DidNeedPushControllerNotification object:@(-1)];
-    LoginViewController *loginVC = MainStoryBoard(@"loginIdentifier");
-    BaseNavigationController *nav = [[BaseNavigationController alloc]initWithRootViewController:loginVC];
-    [self presentViewController:nav animated:YES completion:nil];
+
+
 }
 
 #pragma mark - getter

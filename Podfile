@@ -1,4 +1,8 @@
+platform:ios, '7.0'
 pod 'BmobSDK'
 pod 'SVProgressHUD'
 pod 'AFNetworking'
 pod 'MBProgressHUD'
+pod 'MJRefresh'
+pod 'UICKeyChainStore'
+pod 'tingyunApp'

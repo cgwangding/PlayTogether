@@ -7,8 +7,6 @@
 //
 
 #import "BaseTableViewController.h"
-#import "LoginViewController.h"
-#import "PersonalCenterView.h"
 
 
 @interface BaseTableViewController ()<UIGestureRecognizerDelegate>
@@ -53,15 +51,14 @@
     [self.navigationController.navigationBar setTitleTextAttributes:[self navigationBarTitleTextAttribute]];
     
     self.navigationController.navigationBar.translucent = NO;
-    
-    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(shouldLoginNotification:) name:HadLoginAtAnotherPlaceNotification object:nil];
+
 
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    [[NSNotificationCenter defaultCenter]removeObserver:self name:HadLoginAtAnotherPlaceNotification object:nil];
+
 
 }
 
@@ -140,26 +137,9 @@
 
 #pragma mark - notification
 - (void)shouldLoginNotification:(NSNotification*)notifi{
-    NSString *alarmStateInfo = [notifi object];
-    NSDictionary *dict = [alarmStateInfo objectFromJSONString];
-    [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
-    if (dict != nil && [dict isKindOfClass:[NSDictionary class]]) {
-        [self.view showWithMessage:dict[@"msg"]];
-        [self performSelector:@selector(presentDelay) withObject:nil afterDelay:0.75];
-    }
+    
 }
 
-- (void)presentDelay{
-    default_add_Bool(YES, HadPresentedKey);
-    default_synchronize;
-    //退出
-    [APService setAlias:[UUID substringToIndex:15] callbackSelector:@selector(tagsAliasCallback:tags:alias:) object:self];
-    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithColor:[UIColor  clearColor] size:CGSizeMake(Screen_Width, 64)] forBarMetrics:UIBarMetricsDefault];
-    [APUserData sharedUserData].online = NO;
-    LoginViewController *loginVC = MainStoryBoard(@"loginIdentifier");
-    BaseNavigationController *nav = [[BaseNavigationController alloc]initWithRootViewController:loginVC];
-    [self presentViewController:nav animated:YES completion:nil];
-}
 
 -(void)tagsAliasCallback:(int)iResCode
                     tags:(NSSet*)tags
