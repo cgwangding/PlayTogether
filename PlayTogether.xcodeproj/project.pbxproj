@@ -11,6 +11,7 @@
 		DC6C668B1CAA70C2003623C3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6C668A1CAA70C2003623C3 /* Security.framework */; };
 		DC6C668D1CAA70D0003623C3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6C668C1CAA70D0003623C3 /* SystemConfiguration.framework */; };
 		DC6C668F1CAA70D9003623C3 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6C668E1CAA70D9003623C3 /* CoreTelephony.framework */; };
+		DC85AA711CAB81A100AB5A7C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC85AA701CAB81A100AB5A7C /* CoreLocation.framework */; };
 		DCE64C211CA91A74004F858C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE64C201CA91A74004F858C /* main.m */; };
 		DCE64C241CA91A74004F858C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE64C231CA91A74004F858C /* AppDelegate.m */; };
 		DCE64C2A1CA91A74004F858C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE64C281CA91A74004F858C /* Main.storyboard */; };
@@ -89,7 +90,6 @@
 		DCE64D651CA9378E004F858C /* InCommonUse.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE64D111CA9378E004F858C /* InCommonUse.m */; };
 		DCE64D661CA9378E004F858C /* LeftTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE64D141CA9378E004F858C /* LeftTitleButton.m */; };
 		DCE64D681CA93D7F004F858C /* JSPatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE64D671CA93D7F004F858C /* JSPatch.framework */; };
-		DCE64D6D1CA93E8C004F858C /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE64D6A1CA93E8C004F858C /* libMobClickLibrary.a */; };
 		DCE64D6F1CA93F1E004F858C /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE64D6E1CA93F1E004F858C /* libz.tbd */; };
 		DCE64D711CA93F23004F858C /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE64D701CA93F23004F858C /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
@@ -101,6 +101,7 @@
 		DC6C668A1CAA70C2003623C3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		DC6C668C1CAA70D0003623C3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DC6C668E1CAA70D9003623C3 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DC85AA701CAB81A100AB5A7C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		DCE64C1C1CA91A74004F858C /* PlayTogether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayTogether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE64C201CA91A74004F858C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCE64C221CA91A74004F858C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -258,9 +259,6 @@
 		DCE64D131CA9378E004F858C /* LeftTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTitleButton.h; sourceTree = "<group>"; };
 		DCE64D141CA9378E004F858C /* LeftTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTitleButton.m; sourceTree = "<group>"; };
 		DCE64D671CA93D7F004F858C /* JSPatch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatch.framework; sourceTree = "<group>"; };
-		DCE64D6A1CA93E8C004F858C /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
-		DCE64D6B1CA93E8C004F858C /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
-		DCE64D6C1CA93E8C004F858C /* MobClickSocialAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClickSocialAnalytics.h; sourceTree = "<group>"; };
 		DCE64D6E1CA93F1E004F858C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		DCE64D701CA93F23004F858C /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -270,6 +268,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC85AA711CAB81A100AB5A7C /* CoreLocation.framework in Frameworks */,
 				DC6C668F1CAA70D9003623C3 /* CoreTelephony.framework in Frameworks */,
 				DC6C668D1CAA70D0003623C3 /* SystemConfiguration.framework in Frameworks */,
 				DC6C668B1CAA70C2003623C3 /* Security.framework in Frameworks */,
@@ -278,7 +277,6 @@
 				DCE64D681CA93D7F004F858C /* JSPatch.framework in Frameworks */,
 				C58638B4783070A0C7682796 /* libPods.a in Frameworks */,
 				DCE64D541CA9378E004F858C /* libPushSDK-1.8.8.a in Frameworks */,
-				DCE64D6D1CA93E8C004F858C /* libMobClickLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +295,7 @@
 		54E0793D61CC091CCAD0C773 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DC85AA701CAB81A100AB5A7C /* CoreLocation.framework */,
 				DC6C668E1CAA70D9003623C3 /* CoreTelephony.framework */,
 				DC6C668C1CAA70D0003623C3 /* SystemConfiguration.framework */,
 				DC6C668A1CAA70C2003623C3 /* Security.framework */,
@@ -306,6 +305,99 @@
 				BFAB28C54AF25804054CCF0D /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC85AA721CABCFD000AB5A7C /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				DC85AA741CABCFD000AB5A7C /* ViewControllers */,
+				DC85AA731CABCFD000AB5A7C /* Models */,
+				DC85AA751CABCFD000AB5A7C /* Views */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		DC85AA731CABCFD000AB5A7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC85AA741CABCFD000AB5A7C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DC85AA751CABCFD000AB5A7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC85AA761CABCFD000AB5A7C /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				DC85AA781CABCFD000AB5A7C /* ViewControllers */,
+				DC85AA771CABCFD000AB5A7C /* Models */,
+				DC85AA791CABCFD000AB5A7C /* Views */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		DC85AA771CABCFD000AB5A7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC85AA781CABCFD000AB5A7C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DC85AA791CABCFD000AB5A7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC85AA7A1CABCFD000AB5A7C /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				DC85AA7C1CABCFD000AB5A7C /* ViewControllers */,
+				DC85AA7B1CABCFD000AB5A7C /* Models */,
+				DC85AA7D1CABCFD000AB5A7C /* Views */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		DC85AA7B1CABCFD000AB5A7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC85AA7C1CABCFD000AB5A7C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DC85AA7D1CABCFD000AB5A7C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		DCE64C131CA91A74004F858C = {
@@ -355,6 +447,9 @@
 			isa = PBXGroup;
 			children = (
 				DCE64C381CA9368A004F858C /* Login&Regist */,
+				DC85AA761CABCFD000AB5A7C /* Games */,
+				DC85AA721CABCFD000AB5A7C /* Friends */,
+				DC85AA7A1CABCFD000AB5A7C /* Mine */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -635,7 +730,6 @@
 		DCE64CA61CA9378E004F858C /* ThirdFramework */ = {
 			isa = PBXGroup;
 			children = (
-				DCE64D691CA93E8C004F858C /* UMAnalytics_Sdk_3.6.6 */,
 				DCE64CAE1CA9378E004F858C /* CustomCalandarView */,
 				DCE64CB81CA9378E004F858C /* FCUUID */,
 				DCE64CBD1CA9378E004F858C /* FeHourGlass.h */,
@@ -863,16 +957,6 @@
 				DCE64D141CA9378E004F858C /* LeftTitleButton.m */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		DCE64D691CA93E8C004F858C /* UMAnalytics_Sdk_3.6.6 */ = {
-			isa = PBXGroup;
-			children = (
-				DCE64D6A1CA93E8C004F858C /* libMobClickLibrary.a */,
-				DCE64D6B1CA93E8C004F858C /* MobClick.h */,
-				DCE64D6C1CA93E8C004F858C /* MobClickSocialAnalytics.h */,
-			);
-			path = UMAnalytics_Sdk_3.6.6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1195,7 +1279,6 @@
 					"\"${PODS_ROOT}/Headers/Public/BmobSDK\"",
 					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
 					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
-					"$(PROJECT_DIR)/PlayTogether/Public/ThirdFramework/UMAnalytics_Sdk_3.6.6",
 				);
 				INFOPLIST_FILE = PlayTogether/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -1203,7 +1286,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PlayTogether/Public/ThirdFramework/JPush/lib",
-					"$(PROJECT_DIR)/PlayTogether/Public/ThirdFramework/UMAnalytics_Sdk_3.6.6",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dw.palyTogether;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1229,7 +1311,6 @@
 					"\"${PODS_ROOT}/Headers/Public/BmobSDK\"",
 					"\"${PODS_ROOT}/Headers/Public/MJExtension\"",
 					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
-					"$(PROJECT_DIR)/PlayTogether/Public/ThirdFramework/UMAnalytics_Sdk_3.6.6",
 				);
 				INFOPLIST_FILE = PlayTogether/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -1237,7 +1318,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PlayTogether/Public/ThirdFramework/JPush/lib",
-					"$(PROJECT_DIR)/PlayTogether/Public/ThirdFramework/UMAnalytics_Sdk_3.6.6",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dw.palyTogether;
 				PRODUCT_NAME = "$(TARGET_NAME)";

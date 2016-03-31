@@ -18,7 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //
     [Bmob registerWithAppKey:@"7e8a7a04f81f0a387ab4ddf9cb62b945"];
+    //jspath
+    [JSPatch setupLogger:^(NSString *msg) {
+        DDLog(@"JSPatch>>>>%@",msg);
+    }];
+    [JSPatch startWithAppKey:@"3627db49400da8ae"];
+    [JSPatch sync];
     return YES;
 }
 

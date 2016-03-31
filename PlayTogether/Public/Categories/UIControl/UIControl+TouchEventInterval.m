@@ -7,6 +7,7 @@
 //
 
 #import "UIControl+TouchEventInterval.h"
+#import <objc/runtime.h>
 
 static const char *UIControl_acceptEventInterval = "UIControl_acceptEventInterval";
 static const char *UIControl_acceptedEventTime = "UIControl_acceptedEventTime";

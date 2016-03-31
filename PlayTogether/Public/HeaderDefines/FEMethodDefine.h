@@ -46,7 +46,9 @@
 
 #define HexColor(hex) [UIColor colorWithHex:(hex)]
 
-
+//safe self
+#define  WEAKSELF     __weak typeof(self) weakSelf = self;
+#define STRONGSELF                     __strong typeof(self) strongSelf = weakSelf;
 
 //application
 

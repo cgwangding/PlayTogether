@@ -64,7 +64,6 @@
 
 #import <AudioToolbox/AudioToolbox.h>
 
-#import "MobClick.h"
 #import <JSPatch/JSPatch.h>
 #import <AFNetworking/AFNetworking.h>
 #import <tingyunApp/NBSAppAgent.h>
