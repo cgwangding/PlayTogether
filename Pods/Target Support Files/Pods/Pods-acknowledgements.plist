@@ -826,6 +826,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>https://www.wilddog.com/terms/sa</string>
+			<key>Title</key>
+			<string>Wilddog</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>&#21271;&#20140;&#22522;&#35843;&#32593;&#32476;&#32929;&#20221;&#26377;&#38480;&#20844;&#21496;&#169;2015</string>
 			<key>Title</key>
 			<string>tingyunApp</string>

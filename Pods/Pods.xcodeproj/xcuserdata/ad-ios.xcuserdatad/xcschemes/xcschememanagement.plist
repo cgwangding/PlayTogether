@@ -34,15 +34,20 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Wilddog.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>181924D71337C2EC0E73EAB30D1001E5</key>
+		<key>188760AD56A4C80E759ABD7C2346C008</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>77B33457525F918C34A72E716F4BC833</key>
+		<key>4E2A5BADDF7AEF3108E1F10FFFB9DEA5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,17 +57,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>8FB92388452BECF6E15E0BF01585A933</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>928353533005A4198EBDA5B700D37B64</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CC0C07441DCE384126D44F68619ACFAD</key>
+		<key>FE2F1D7B9D9FCEA148517E4657B243F4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FE2F1D7B9D9FCEA148517E4657B243F4</key>
+		<key>FFBAF0BCF22A5046E918C138FC91F5BC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

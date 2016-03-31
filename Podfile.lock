@@ -20,6 +20,7 @@ PODS:
   - SVProgressHUD (2.0)
   - tingyunApp (2.3.4)
   - UICKeyChainStore (2.1.0)
+  - Wilddog (0.9.8)
 
 DEPENDENCIES:
   - AFNetworking
@@ -29,6 +30,7 @@ DEPENDENCIES:
   - SVProgressHUD
   - tingyunApp
   - UICKeyChainStore
+  - Wilddog
 
 SPEC CHECKSUMS:
   AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
@@ -38,5 +40,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: e9e7c893686a20da55a28015ed384d9425e15479
   tingyunApp: f1f7fd8994c5f9cf19180bbaaa1681ff632a7cc8
   UICKeyChainStore: f1cbd42216a113f0165de1e733e62905b8823432
+  Wilddog: 15621cdcdaba903a75a0b49fe3a4b8d4dd4545cd
 
 COCOAPODS: 0.39.0
